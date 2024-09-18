@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Manrope', sans-serif;
+	background-color: #202020;
+	color: #DEDEDE;
+	font-size: 20px
+
+
+}
+
+header {
+	width: 1440px;
+	height: 80px;
+	background: #297330;
+	padding: 0 5%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav > a {
+	margin-right: 50px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.5px;
+	color: #dedede;
+    text-decoration: none;
+}
+
+/* Logos */
+
+.container {
+	display: line;
+}
+
+.logo {
+	width: 29px;
+	height: 40.85px;
+}
+
+.btn {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 48px;
+gap: 16px;
+
+position: absolute;
+width: 400px;
+height: 64px;
+left: 96px;
+top: 615px;
+
+background: #297330;
+border-radius: 4px;
+}
+
+
+.hulk-collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.hulk-collage img {
+    width: 40%;
+    height: auto;
+    border: 2px solid #000;
+}
+
+body{
+height: 100vh;
+margin: 0;
+}
